@@ -1,0 +1,29 @@
+baseURL = 'https://jedregenwether.com/'
+languageCode = 'en'
+title = 'Jed Regenwether'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.7
+  filename = 'sitemap.xml'
+
+[params]
+  description = 'AI/ML engineer and strategist. Building reliable, pragmatic systems that ship.'
+  email = 'contact@jedregenwether.com'
+
+[[params.profiles]]
+  name = 'X'
+  url = 'https://x.com/Jwregenwether'
+
+[[params.profiles]]
+  name = 'GitHub'
+  url = 'https://github.com/jedregenwether'
+
+[[params.profiles]]
+  name = 'Dev.to'
+  url = 'https://dev.to/jedregenwether'
+
+[[params.profiles]]
+  name = 'Stack Overflow'
+  url = 'https://stackoverflow.com/users/31406733/jedregenwether'
