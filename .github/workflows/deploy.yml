@@ -33,6 +33,12 @@ jobs:
       - name: Fetch curated feeds
         run: python scripts/fetch_feeds.py
 
+      - name: Publish weekly digest to Dev.to (optional)
+        if: ${{ secrets.DEVTO_API_KEY != '' }}
+        env:
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+        run: python scripts/publish_devto.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
