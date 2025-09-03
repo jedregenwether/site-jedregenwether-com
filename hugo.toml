@@ -18,7 +18,7 @@ enableRobotsTXT = true
 
 [params.verification]
   google = 'NyRvQt6TA_EsZdR0OrYtQJ5eWjxQKHYn9mCrtXo1sA4'
-  bing = ''
+  bing = '3A4E12EE5DB1050AFEDA8F306244D011'
 
 [[params.profiles]]
   name = 'GitHub'
