@@ -16,6 +16,10 @@ enableRobotsTXT = true
   name = 'X'
   url = 'https://x.com/Jwregenwether'
 
+[params.verification]
+  google = 'NyRvQt6TA_EsZdR0OrYtQJ5eWjxQKHYn9mCrtXo1sA4'
+  bing = ''
+
 [[params.profiles]]
   name = 'GitHub'
   url = 'https://github.com/jedregenwether'
